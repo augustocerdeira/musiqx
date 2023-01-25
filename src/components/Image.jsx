@@ -123,10 +123,10 @@ const Image = () => {
                         <Link className="btn btn-outline-dark btn-sm" to={"/message/" + id}>Message</Link>
                     </div>
                     <div>
-                        <Link className="btn btn-outline-dark btn-sm" to={"/image/" + id}>Update Photo</Link>
+                        <Link className="btn btn-outline-dark btn-sm" to={"/logged/" + id}>Back to myPage</Link>
                     </div>
                     <div>
-                        <Link className="btn btn-outline-dark btn-sm" to="/">Back</Link>
+                        <Link className="btn btn-outline-dark btn-sm" to="/">Home</Link>
                     </div>
                 </div>
                 <div style={{ paddingBottom: "50px" }}></div>
